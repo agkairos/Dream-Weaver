@@ -89,11 +89,11 @@ app.use((req, res, next) => {
   httpServer.listen(
     {
       port,
-      host: 'localhost', // ou "127.0.0.1"
+      host: '0.0.0.0', // ou "127.0.0.1"
       // reusePort: true, // Remova ou comente esta linha no Windows
     },
     () => {
-      log(`serving on http://localhost:${port}`);
+      log(`serving on http://0.0.0.0:${port}`);
     }
   );
 })();
