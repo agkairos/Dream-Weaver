@@ -177,7 +177,7 @@ export default function Home() {
         {/* Sidebar */}
         <div className="lg:col-span-4 space-y-6">
           {/* History Card */}
-          <GlassCard className="p-6">
+          {/* <GlassCard className="p-6">
             <div className="flex items-center gap-2 mb-4 text-white/90">
               <History className="w-5 h-5 text-primary" />
               <h3 className="font-bold text-lg">Recent Calculations</h3>
@@ -197,7 +197,7 @@ export default function Home() {
                 </div>
               ))}
             </div>
-          </GlassCard>
+          </GlassCard> */}
 
           {/* Tips Card */}
           <GlassCard className="p-6 bg-gradient-to-br from-indigo-500/10 to-purple-500/10 border-indigo-500/20">
