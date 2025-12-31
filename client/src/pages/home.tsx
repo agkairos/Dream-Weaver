@@ -241,11 +241,11 @@ export default function Home() {
         style={{
           display: "inline-block",
           textDecoration: "none",
-          fontSize: "0.95rem",
+          fontSize: "0.60rem",
           marginTop: "3rem",  
         }}
       >
-        Privacy Policy
+       © AGÊNCIA KAIRÓS Privacy Policy
       </a>
     </div>
   );
