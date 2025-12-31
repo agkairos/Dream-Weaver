@@ -236,6 +236,17 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <a
+        href="/privacy-policy"
+        style={{
+          display: "inline-block",
+          textDecoration: "none",
+          fontSize: "0.95rem",
+          marginTop: "3rem",  
+        }}
+      >
+        Privacy Policy
+      </a>
     </div>
   );
 }
